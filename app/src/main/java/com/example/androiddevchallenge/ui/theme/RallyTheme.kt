@@ -33,6 +33,7 @@ import com.example.androiddevchallenge.R
 private val EczarFontFamily = FontFamily(
     Font(R.font.eczar_regular),
     Font(R.font.eczar_semibold, FontWeight.SemiBold)
+
 )
 private val RobotoCondensed = FontFamily(
     Font(R.font.robotocondensed_regular),

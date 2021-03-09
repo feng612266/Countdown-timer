@@ -13,9 +13,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.example.androiddevchallenge.theme
+package com.example.androiddevchallenge
 
-import androidx.compose.ui.graphics.Color
-
-val Green500 = Color(0xFF1EB980)
-val DarkBlue900 = Color(0xFF26282F) // TODO: Confirm literal name
+const val CHALLENGE_TIME = 5000L
+const val TIMER_START = "START"
+const val TIMER_RUNNING = "RUNNING"
+const val TIMER_PAUSE = "PAUSE"
+const val TIMER_END = "END"
+const val ANIMATION_DURATION = 1000
+const val FINAL_SECONDS = 10000L
+const val LAUNCH_TIME = 5000L
